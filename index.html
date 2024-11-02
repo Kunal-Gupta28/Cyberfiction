@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERFICTION</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/images/10014.png" type="image/x-icon">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- locomotive cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="w-[100vw] bg-black" dark_mode>
+
+    <!-- loader -->
+    <div id="loader" class="h-[100vh] w-[100vw] bg-[#f5f5f5] flex justify-center items-center fixed top-0 left-0 z-[100]">
+        <img src="/images/10016.png" width="120" alt="">
+    </div>
+
+    <!-- nav -->
+    <nav
+        class="h-[3.5vw] w-full px-[2.5vw] text-white text-[1.5vw] flex justify-between items-center fixed z-[99]">
+        <div class="cursor-pointer"><b>CYBER</b>FICTION*</div>
+        <div class="flex justify-between items-center w-[15vw] text-[1.5vw]">
+            <i id="mode" class="fa-solid fa-sun cursor-pointer"></i>
+            <a class="cursor-pointer" href="#"><i class="fa-solid fa-sailboat"></i></a>
+            <a class="cursor-pointer" href="#"><i class="fa-solid fa-gamepad"></i></a>
+            <a class="cursor-pointer" href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a class="cursor-pointer" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main data-scroll-container>
+
+        <!-- herosection -->
+        <section id="herosection" class="h-full w-full">
+            <!-- canvas -->
+            <canvas class="absolute"></canvas>
+
+            <!-- marquee -->
+            <div id="herosection_marquee" class="flex relative top-[30%] z-[-1] text-white text-[10vw] overflow-hidden">
+                <h1 class=" whitespace-nowrap">
+                    <b>CYBER</b>FICTION* THE <b><i>REAL</i></b>
+                    <span class="text-[transparent]">STORY</span> IN THE
+                    <span class="text-[transparent] italic">METAVERSE.&nbsp;</span>
+                    <b>CYBER</b>FICTION* THE <b><i>REAL</i></b>
+                    <span class="text-[transparent]">STORY</span> IN THE
+                    <span class="text-[transparent] italic">METAVERSE.&nbsp;</span>
+                </h1>
+                <h1 class=" whitespace-nowrap">
+                    <b>CYBER</b>FICTION* THE <b><i>REAL</i></b>
+                    <span class="text-[transparent]">STORY</span> IN THE
+                    <span class="text-[transparent] italic">METAVERSE.&nbsp;</span>
+                    <b>CYBER</b>FICTION* THE <b><i>REAL</i></b>
+                    <span class="text-[transparent]">STORY</span> IN THE
+                    <span class="text-[transparent] italic">METAVERSE.&nbsp;</span>
+                </h1>
+            </div>
+
+
+            <!-- herosection text -->
+            <div id="herosection_text" class="h-[100vh] w-full px-[5vw] text-white text-[0.9vw] flex justify-between items-center relative">
+                <p>CYBERFICTION AIMS TO BE A DECENTRALIZED COMMUNITY THAT CAN CREATE <br>
+                    NEW VALUES AND PROFITS THROUGH PLAY IN THE VIRTUAL WORLD.</p>
+                <p class="text-right">사이버픽션은 가상 세계에서 놀이를 통해 새로운 가치와 이윤을 창조할 수 있는 탈중앙화<br>
+                    커뮤니티를 지향합니다. <br> <br>
+                    <span class="text-[1rem] text-[rgba(177,171,171,0.851)]">...SCROLL TO READ</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- pin page 1 -->
+        <div id="pin1"
+            class="h-[100vh] w-full px-[10vw] text-white text-[2.8vw] leading-[3vw] flex justify-between items-center relative z-[2]">
+            <p class="text-left  mt-[10vw]">
+                <span class="text-[rgba(177,171,171,0.851)] text-[1vw]">
+                    CYBERFICTION / KEY WORD
+                </span>
+                <br>
+                HAVE FUN <br>
+                LET'S PLAY <br>
+                JUST BE TOGETHER
+            </p>
+            <p class="text-right mt-[-10vw]">
+                MAKE A STORY <br>
+                TAKE A CHANCE <br>
+                BUILD AND OWNED <br>
+                <span class="text-[1vw] text-[rgba(177,171,171,0.851)]">
+                    ...AND MAINTAIN GOOD HUMANITY</span>
+            </p>
+        </div>
+
+        <!-- pin page 2 -->
+        <section id="pin2"
+            class="h-[100vh] w-full px-[5vw] text-white text-[2.8vw] leading-[3vw] flex justify-between items-center relative z-[2]">
+            <p class="text-left ps-[10vw] text-[2.9vw] mt-[-12vw]">
+                <span class="text-[1rem] text-[rgba(177,171,171,0.851)]">
+                    CYBERFICTION / KEY WORD</span><br>
+                LET'S <br>
+                HAVE FUN <br>
+                TOGETHER
+            </p>
+
+            <div class="text-right text-[0.9vw] leading-[1.5vw] mt-[14vw]">
+                <p>LET'S HAVE A BLAST! LET'S JUST THROW AWAY AGE, GENDER, REGION, STATUS,<br>
+                    ETC., DON'T COMPETE, DON'T FIGHT, COOPERATE AND SHARE WITH EACH /<br>
+                    AND ENJOY IT TOGETHER! SO THAT YOU CAN STAND THERE IN THE NOT-TOO-<br>
+                    DISTANT FUTURE AND DREAM OF AN/NEW FUTURE</p>
+
+                <p>신나게 한판 놀아보자! 나이, 성별, 지역, 지위 등은 그냥 던져버리고, 경쟁하지 않으며, 싸우<br>
+                    지 않고, 서로 협력하고 공유하면서 우리 함께 즐겨보자! 멀지 않은 미래에 그곳에 서서,<br>
+                    <span class="text-[1rem] text-[rgba(177,171,171,0.851)]">또다른 새로운 미래를 꿈 꿀 수 있도록~</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- pin page 3 -->
+        <section id="pin3"
+            class="h-[100vh] w-full px-[5vw] text-white text-[2.8vw] leading-[3vw] flex justify-between items-center relative z-[2]">
+            <div class="text-left text-[1vw] leading-[1.5vw] mt-[-8vw]">
+                <p>
+                    CYBERFIELD IS OUR PLAYGROUND! IT IS A DAZZLING BEACH IN THE SOUTH <br>
+                    PACIFIC, A BLIZZARD OF HILLS IN THE ALPS, AND SOMETIMES SOMEWHERE ON <br>
+                    THE MOON WHERE THE EARTH IS VISIBLE. WE CAN HAVE A PARTY THERE,<br>
+                    EXPERIENCE ADVENTURES, AND ENJOY A QUIET REST. THE WORLD THAT <br>
+                    CYBERFICTION WILL CREATE! WE WILL CREATE AND OWN.
+                </p>
+
+                <p>
+                    신나게 한판 놀아보자! 나이, 성별, 지역, 지위 등은 그냥 던져버리고, 경쟁하지 않으며, 싸우<br>
+                    지 않고, 서로 협력하고 공유하면서 우리 함께 즐겨보자! 멀지 않은 미래에 그곳에 서서,<br>
+                    <span class="text-[1rem] text-[rgba(177,171,171,0.851)]">또다른 새로운 미래를 꿈 꿀 수 있도록~</span>
+                </p>
+            </div>
+            <p class="text-right pe-[10vw] mt-[15vw]">
+                <span class="text-[1rem] text-[rgba(177,171,171,0.851)]">
+                    CYBERFICTION / KEY WORD</span><br>
+                CYBERFIELD <br>
+                IS OUR <br>
+                PLAYGROUND
+            </p>
+        </section>
+
+        <!-- digital avatar section -->
+        <section id="digital_avatar"
+            class="h-[100vh] w-full bg-[#f5f5f5] z-[2] text-[0.9rem] pt-[150px] flex flex-col justify-between relative">
+            <div class="w-full text-center  ">
+                <p class="text-[#171010]">CYBERFICTION / AVATARS</p>
+                <span class="text-[#171010] text-[2.5vw] text-left">
+                    <b> SO WE'LL START <br>
+                        WITH 10,000 DIGITAL AVATARS.</b></span>
+                <div class="text-left text-[1vw] mt-[0.4%] flex justify-center gap-[3%] items-center">
+                    <span>
+                        OUR JOURNEY IS JUST BEGINNING, AND THE BEGINNING IS TO <br>
+                        CREATE 10,000 DIGITAL AVATARS. THE CYBERFICTION AVATAR <br>
+                        WILL BE A YOUNG, HEALTHY, AND PURE FIGURE WITH A FULL 3D <br>
+                        CYBORG CONCEPT, AND WILL BE AN/ME WHO CAN <br>
+                        REPLACE ME AS AN ORGANISM THAT IS DISAPPEARING OVER <br>
+                        TIME.
+                    </span>
+                    <span>
+                        우리의 여정은 이제 시작이고, 그 시작은 10,000개의 디지털 아바타를 창조하는<br>
+                        것이다. 사이버픽션 아바타는 풀 3디의 사이보그 컨셉으로 젊고 건강하며 <br>
+                        순수한 모습으로, 세월의 흐름으로 소멸해 가는 유기체로서의 나를 대신할 수 있는 <br>
+                        또 다른 내가 될 것이다.
+                    </span>
+                </div>
+            </div>
+
+            <!-- avtaar marquee -->
+            <div id="avatar_marquee" class="h-1/2">
+                <div id="avatar_marquee_content" class="h-full overflow-hidden">
+                    <div class="h-full flex">
+                        <img src="/images/1.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/2.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/3.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/4.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/5.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/6.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/7.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/8.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/9.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/10.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/11.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/12.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/13.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/1.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/2.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/3.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/4.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/5.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/6.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/7.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/8.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/9.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/10.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/11.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/12.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                        <img src="/images/13.png" class="h-full w-1/3 mx-[-2.2%]" alt="avatar image">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Road map -->
+        <section id="road_map" class="h-[100vh] w-full pt-[10vw] text-white text-center relative z-[2]">
+            <p class="text-[4vw]">ROAD MAP</p>
+            <p class="text-[0.85vw] font-thin mt-[-0.5vw] mb-[2vw]">WE WILL MOVE FORWARD WITH THE COMMUNITY.</p>
+            <div class="h-[60%] text-black gap-[1vw] text-[0.9rem] text-left font-thin justify-center flex flex-wrap ">
+                <div class="h-[40%] w-[28%] bg-white p-6 rounded-lg">01 / <br><br>
+                    <p><b>LAUNCH OF OFFICIAL WEBSITE</b></p> <br>
+                    CYBERFICTION OFFICIAL WEBSITE OPENED <br> <br>
+
+                    사이버픽션 공식 홈페이지 오픈
+                </div>
+                <div class="h-[40%] w-[28%] bg-white p-6 rounded-lg">02 / <br> <br>
+                    <p><b>CREATE 10,000 AVATARS </b></p> <br>
+                    CYBERFICTION FULL 3D AVATAR PRODUCTION <br> <br>
+
+                    사이버픽션 풀 3D 아바타 제작
+                </div>
+                <div class="h-[40%] w-[28%] bg-white p-6 rounded-lg">03 / <br> <br>
+                    <p><b>MINTING</b></p> <br>
+                    CYBERFICTION AVATARS NFT MINTING <br> <br>
+
+                    사이버픽션 아바타 NFT 민팅
+                </div>
+                <div class="h-[55%] w-[28%] bg-white p-6 rounded-lg">04 / <br> <br>
+                    <p><b>ORGANIZE OPERATION TEAM</b></p> <br>
+                    THE OPERATIONS TEAM WILL BE THE LEADING TEAM TO LEAD THE COMMUNITY, REFINE OUR THOUGHTS, PLAN, AND
+                    DECIDE. OUR OPERATION TEAM IS AN AVATAR OWNER. <br> <br>
+
+                    아바타 소유자를 대상으로 운영팀 구성
+                </div>
+                <div class="h-[55%] w-[28%] bg-white p-6 rounded-lg">05 / <br> <br>
+                    <p><b>OPENING THE FIRST STAGE.</b></p> <br>
+                    LET'S START OUR STORY. WE WILL BE GIVEN A ROLE WITH NEW POSSESSIONS. YOU WILL PERFORM ROLE-BASED
+                    MISSIONS AND HAVE MORE AVATARS. <br> <br>
+
+                    우리의 이야기를 시작합니다
+                </div>
+                <div class="h-[55%] w-[28%] bg-white p-6 rounded-lg">06 / <br> <br>
+                    <p><b>CYBERFICTION BLUEPRINT.</b></p> <br>
+                    BLUEPRINTS TO CREATE A TRUE METAVERSE PLAYGROUND WILL BE UNVEILED. LET'S WAIT AND SEE. <br> <br>
+
+                    사이버필드의 청사진. 일단 두고봅시다
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-dashed">
+
+        <!--  marquee trio -->
+        <section id="marquee_trio" class="h-[100vh] w-full text-white text-center pt-[200px]">
+            <p class="text-[3.7vw]"><b>WE'RE STILL ALONE,</b></p>
+            <p class="text-[0.8vw] font-thin mb-[100px]">WE STARTED, BUT WE NEED THE HELP OF THE COMMUNITY.</p>
+            <div class="whitespace-nowrap flex flex-col ju text-black text-[8vw] relative">
+
+                <!-- first marquee of trio -->
+                <div class="relative text-[transparent] overflow-hidden">
+                    <p>
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                    </p>
+                </div>
+
+                <!-- second marquee of trio -->
+                <div class="relative text-[transparent] overflow-hidden">
+                    <p>
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                    </p>
+                </div>
+
+                <!-- third marquee of trio -->
+                <div class="relative text-[transparent] overflow-hidden">
+                    <p>
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                        CYBER FICTION* THE REAL STORY IN THE METAVERSE.
+                    </p>
+                </div>
+                <img src="/images/13.png" class="h-[150%] w-[35%]  absolute top-[-20%] left-[32.5%] z-[2]">
+            </div>
+        </section>
+
+        <!-- last_section -->
+        <section id="last_section"
+            class="h-[170vh] w-full text-white text-center flex flex-col justify-between items-center relative z-[2]">
+            <p class="text-[1.3vw] font-normal"> RYAN JEONGYOEB HAN</p>
+            <p class="text-left font-thin text-[0.85vw] mt-[15px]">FOUNDER / DREAMER / DESIGNER</p>
+            <div>
+                <p class="text-left font-thin text-[0.85vw] mt-[15px]">I WANT TO TAKE THE INITIATIVE IN EXPERIENCING THE
+                    TIME AND SPACE OF <br>METAVERSE,
+                    WHICH COMPLETELY CAPTURES MY SPARKLING SPIRIT AWAY FROM <br> THE DYING ORGANISM.</p>
+                <p class="text-left">소멸해가는 유기체에서 벗어나 반짝거리는 내 정신을 온전히 담아내는 메타버스란 시공간을 <br>주도적으로 경험하고 싶다.</p>
+            </div>
+            <div class="vertical_lines h-[180px] w-1/2 self-start border-r border-[#dadadacb] my-[90px]"></div>
+
+            <p class="text-left font-thin text-[0.85vw] mt-[15px]">CYBERFICTION / OPERATIONS TEAM</p>
+            <span class="text-[4vw] mt-[10px]">SET YOUR OWN <br>
+                DIRECTION, PROJECT IDEAS, ACT,<br>
+                AND SHARE PERFORMANCE AND PROFITS.
+            </span>
+            <div class="text-left font-thin text-[0.85vw] mt-[15px] flex justify-between items-center gap-[30px]">
+                <span>WE FORM AN OPERATIONAL TEAM THAT WILL LEAD TO <br> COOPERATION AND ESTABLISH VALUE AND IDENTITY
+                    FOR THE <br>WORLD WE WILL CREATE AND OWN. THE OPERATIONS TEAM <br>WILL BE THE LEADING TEAM TO LEAD
+                    THE COMMUNITY, REFINE <br> OUR THINKING, PLAN AND DECIDE.</span>
+                <span>우리가 만들고 소유할 세상을 위해 협력을 이끌어 내고, 가치와 정체성을 <br>확립해 나갈 운영팀을 구성합니다. 운영팀은 커뮤니티를 리드하고,<br> 우리의 생각을 다듬고,
+                    계획하고 결정 해 나갈 선도적 팀이 될 것입니 <br>다.</span>
+            </div>
+            <div class="vertical_lines h-[180px] w-1/2 self-start border-r border-[#dadadacb] my-[90px]"></div>
+
+        </section>
+
+        <!-- footer -->
+        <footer class="h-[80vh] w-full text-white  flex flex-col justify-between items-center">
+            <div class="w-full flex justify-center">
+                <span
+                    class="text-[0.8vw] font-thin border border-white m-[10px] py-[10px] px-[60px] rounded-[40px] cursor-pointer hover:bg-white hover:text-black">OPENSEA</span>
+                <span
+                    class="text-[0.8vw] font-thin border border-white m-[10px] py-[10px] px-[60px] rounded-[40px] cursor-pointer hover:bg-white hover:text-black">DISCORD</span>
+                <span
+                    class="text-[0.8vw] font-thin border border-white m-[10px] py-[10px] px-[60px] rounded-[40px] cursor-pointer hover:bg-white hover:text-black">TWITTER</span>
+                <span
+                    class="text-[0.8vw] font-thin border border-white m-[10px] py-[10px] px-[60px] rounded-[40px] cursor-pointer hover:bg-white hover:text-black">INSTAGRAM</span>
+            </div>
+            <span class="text-[transparent] text-[10vw] my-[50px] leading-[10vw] text-center">
+                LET'S HAVE FUN <br>
+                TOGETHER
+            </span>
+            <span class="h-[4vw] flex flex-col items-center">
+                <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 512 512">
+                        <path
+                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                            fill="#ffffff">
+                        </path>
+                    </svg></a>
+                
+                <span class="text-[0.8vw] font-thin mt-[0.4vw] mb-[50px]">2023 © <b>CYBER</b>FICTION™</span>
+            </span>
+        </footer>
+
+    </main>
+
+
+    <!-- locomotive scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- scroll trigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- custom js -->
+    <script src="app.js"></script>
+</body>
+
+</html>

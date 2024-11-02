@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+} 
+*::selection{
+    background: none;
+}
+
+/* herosection */
+#herosection_marquee > h1{
+    font-family: "gilroy";
+    font-weight: 100;
+    animation: herosection_marquee 40s linear infinite;
+}
+#herosection_marquee > h1 > span{
+    -webkit-text-stroke: 2px white;
+}
+@keyframes herosection_marquee{
+    0%{transform: translateX(0%);}
+    100%{transform: translateX(-100%);}
+}
+
+#avatar_marquee_content div {
+    animation: avatar_marquee 20s linear infinite;
+}
+@keyframes avatar_marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-200%); } 
+}
+
+/* marquee trio */
+#marquee_trio div{
+    -webkit-text-stroke: 1px white;
+    line-height: 7.7rem;
+}
+#marquee_trio div div:first-child p{
+    animation: first_marquee_of_trio 110s linear  infinite;
+}
+@keyframes first_marquee_of_trio {
+    0%{transform: translatex(-1100%);}
+    100%{transform: translatex(100%);}
+}
+#marquee_trio div div:nth-child(2) p{
+    animation: second_marquee_of_trio 80s linear  infinite;
+}
+@keyframes second_marquee_of_trio {
+    0%{transform: translatex(100%);}
+    100%{transform: translatex(-1100%);}
+}
+#marquee_trio div div:nth-child(3) p{
+    animation: third_marquee_of_trio 80s linear infinite;
+}
+@keyframes third_marquee_of_trio {
+    0%{transform: translatex(-1100%);}
+    100%{transform: translatex(100%);}
+}
+
+/* footer  */
+footer > div + span{
+    -webkit-text-stroke: 2px white;
+    line-height: 10rem;
+}
